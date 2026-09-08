@@ -1,0 +1,19 @@
+import numpy as np
+a=np.array([10,20,30,40,50])
+print("Array:", a)
+print("Data Type:", a.dtype)
+print(a+5)
+print(a*2)
+print(np.sum(a))
+print(np.mean(a))
+print(np.max(a))
+print(np.min(a))
+
+import numpy as np
+a=np.array([1,21,52,12,9])
+print(np.sum(a))
+print(np.mean(a))
+print(np.max(a))
+print(np.min(a))
+print(np.std(a))
+print(np.var(a))
